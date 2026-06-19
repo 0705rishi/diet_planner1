@@ -22,9 +22,10 @@
 
 ### ✅ What's Deployed (Live!)
 - All pages and navigation
+- **Email/Password Login** (working with localStorage)
+- **Guest Access** (one-click login)
 - BMI calculator
 - AI diet plan generation (Groq)
-- User authentication (localStorage)
 - Settings and preferences
 - Nutrition tips library
 - Mobile responsive design
@@ -34,6 +35,7 @@
 - User database
 - Email reminders
 - Google OAuth backend
+- Password reset functionality
 
 ---
 

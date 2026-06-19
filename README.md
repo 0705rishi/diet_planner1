@@ -407,6 +407,37 @@ npm run build
 
 ---
 
+## 🔐 Authentication System
+
+### Email/Password Login ✅
+- **Registration**: Create account with name, email, password
+- **Login**: Access account with email and password
+- **Session Management**: User data stored in `localStorage`
+- **Guest Access**: One-click guest login for quick testing
+
+### Google OAuth ⏳
+- **Status**: UI ready, backend pending
+- **Will implement**: Full Google Sign-In integration
+- **Backend requirements**: Firebase or Auth0 setup
+
+### How It Works (Current)
+1. User fills form and submits
+2. Data stored in `localStorage`:
+   - `userToken`: Authentication token
+   - `userName`: User's display name
+   - `userEmail`: User's email
+3. User redirected to dashboard
+4. Session persists across page refreshes
+
+### For Production
+To implement real authentication:
+1. Set up backend API
+2. Add JWT tokens
+3. Implement password hashing
+4. Add database user storage
+
+---
+
 ## 📊 What's Working
 
 ✅ All pages and navigation  
